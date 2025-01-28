@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nyelvtech2-projekt-haha"
+description = "Final assessment project for natural language processign course in my master programme."
+authors = ["balintdecsi <balint.decsi@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.2"
+scikit-learn = "^1.6.1"
+nltk = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
